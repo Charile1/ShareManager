@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_cust_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/test"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/text_cust_companyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/test"
+        android:textSize="40sp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginStart="24dp"
+            android:padding="10dp"
+            android:text="@string/shares_amount"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_cust_shares"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:text="@string/test"
+            android:textSize="33sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="@string/shares_price"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_cust_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="48dp"
+            android:padding="10dp"
+            android:text="@string/test"
+            android:textSize="33sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="9dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="9dp"
+            android:padding="10dp"
+            android:text="@string/total_price"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_cust_total"
+            android:layout_width="151dp"
+            android:layout_height="61dp"
+            android:padding="10dp"
+            android:text="@string/test"
+            android:textSize="33sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_cust_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/test"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/text_cust_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_gravity="bottom"
+        android:textSize="12sp" />
+
+
+</LinearLayout>

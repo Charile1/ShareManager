@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Share Manager</string>
+    <string name="new_customer">New Customer</string>
+    <string name="customer_name">Customer name</string>
+    <string name="customer_company">Customer\'s company</string>
+    <string name="shares_amount">Shares</string>
+    <string name="shares_price">Share Price</string>
+    <string name="test">TEST</string>
+    <string name="total_price">Total Price</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_company_s_name">enter company\'s\' name</string>
+    <string name="enter_amount_of_shares">Enter amount of shares</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="submit">Submit</string>
+    <string name="enter_price_of_share">enter price of share</string>
+    <string name="date_picker_title">Date of purchase</string>
+
+
+</resources>
